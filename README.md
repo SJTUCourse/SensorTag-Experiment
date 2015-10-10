@@ -6,7 +6,7 @@ Requirements and FAQs for the experiment of SensorTag
 You can find the model pictures [here](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/tearDown.html).
 ![SensorTag-back](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/images/sensorTag-teardown-bluetooth-03.jpg)
 ![SensorTag-front](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/images/sensorTag-teardown-bluetooth-04.jpg)
-2. Describe the function and name of the sensor chip you used. You can find the information of the related sensors [here](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/tearDown.html). 
-
-3. Choose an application for your used sensor.  
-> i.e., I used the sensor of [TMP007](http://www.ti.com/product/tmp007) to measure the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University. To prove 
+2. Describe the function and name of the sensor chip you used. You can find the information of the related sensors [here](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/tearDown.html).  
+3. Select an application for the sensor you used.  
+> i.e., I used the sensor of [TMP007](http://www.ti.com/product/tmp007) to measure the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University.  
+4. Provide the details of your application, 
