@@ -9,4 +9,4 @@ You can find the model pictures [here](http://www.ti.com/ww/en/wireless_connecti
 2. Describe the function and name of the sensor chip you used. You can find the information of the related sensors [here](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/tearDown.html). 
 
 3. Choose an application for your used sensor.  
-> i.e., I used [TMP007](http://www.ti.com/product/tmp007) for the measurement of the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University
+> i.e., I used the sensor of [TMP007](http://www.ti.com/product/tmp007) to measure the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University. To prove 
