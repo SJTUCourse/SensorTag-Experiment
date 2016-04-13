@@ -28,7 +28,7 @@ If you do not  have a SensorTag, you can use your online computer to simulate th
 
 Q: How to deploy my application in [IBM Bluemix](https://www.ng.bluemix.net)?  
 
-A: 
+A: [Register](https://docs.internetofthings.ibmcloud.com/getting_started/register/index.html)  
 
 ## Helpful resources
 * [Simplelink SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015)
