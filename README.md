@@ -12,22 +12,25 @@ You can find the following model pictures [here](http://www.ti.com/ww/en/wireles
   > i.e., I used the sensor of [TMP007](http://www.ti.com/product/tmp007) to measure the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University.  
 
 ## FAQs
-Q: How to fetch the sensor data of [SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015) from [IBM IoT Platform](https://quickstart.internetofthings.ibmcloud.com/#/device/)?  
+Q: I have a SensorTag around, how can I get started to view the sensor data?  
+A: If you are an iOS user, this [article](https://developer.ibm.com/recipes/tutorials/find-your-sensortag-device-id-in-ios/) provides detailed descriptions. If you are an android user, similar operations should be performed.
 
-A: You should satisfy the following requirements:  
-(1) Have [SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015) with Push to cloud selected in Cloud View  
-If you do not  have a SensorTag, you can use your online computer to simulate the SensorTag in [this link](https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/).  
+Q: I want to fetch the sensor data from [IBM IoT Cloud](https://quickstart.internetofthings.ibmcloud.com/#/device/), how can I achieve that in my computer?  
+A: You should do the following steps,  
+(1) Ensure that your SensorTag with 'Push to cloud' turned on in 'Cloud View'.  
+If you do not have a SensorTag around, you can use your computer to simulate as SensorTag, and this [article](https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/) provides detailed descriptions.  
 
-(2) Install Python SDK for IoT
-* [Python 2.7/3.5](https://www.python.org/)
-* [PyPI](https://pypi.python.org/pypi)
-* [IoT Python](https://github.com/ibm-messaging/iot-python)
+(2) Install IBM Python SDK for IoT in your computer.
+* [Python 2.7/3.5](https://www.python.org/downloads)
+* Upgrade [pip](https://bootstrap.pypa.io/get-pip.py)  
+Download the get-pip.py and run in command lines: python get-pip.py  
+* [IoT Python](https://github.com/ibm-messaging/iot-python)  
+If you are not familiar with Python language, [Python Tutor](http://pythontutor.com/) can help you exercise Python programming so that you can master Python quickly, maybe in three days or a week.  
 
-(3) Get DeviceID of your SensorTag  
-
+(3) Get DeviceID of your SensorTag, run in the command lines as below,  
+> python simpleApp.py -I deviceID  
 
 Q: How to deploy my application in [IBM Bluemix](https://www.ng.bluemix.net)?  
-
 A: [Register](https://docs.internetofthings.ibmcloud.com/getting_started/register/index.html)  
 
 ## Helpful resources
