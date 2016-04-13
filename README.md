@@ -12,11 +12,28 @@ You can find the following model pictures [here](http://www.ti.com/ww/en/wireles
   > i.e., I used the sensor of [TMP007](http://www.ti.com/product/tmp007) to measure the enviroment temperature in the Minhang campus of Shanghai Jiao Tong University.  
 
 ## FAQs
-TBD  
+Q: How to fetch the sensor data of [SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015) from [IBM IoT Platform](https://quickstart.internetofthings.ibmcloud.com/#/device/)?  
+
+A: You should satisfy the following requirements:  
+(1) Have [SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015) with Push to cloud selected in Cloud View  
+If you do not  have a SensorTag, you can use your online computer to simulate the SensorTag in [this link](https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/).  
+
+(2) Install Python SDK for IoT
+* [Python 2.7/3.5](https://www.python.org/)
+* [PyPI](https://pypi.python.org/pypi)
+* [IoT Python](https://github.com/ibm-messaging/iot-python)
+
+(3) Get DeviceID of your SensorTag  
+
+
+Q: How to deploy my application in [IBM Bluemix](https://www.ng.bluemix.net)?  
+
+A: 
+
 ## Helpful resources
 * [Simplelink SensorTag](http://www.ti.com/ww/en/wireless_connectivity/sensortag2015)
 * [TI E2E Community for Bluetooth Smart](http://e2e.ti.com/support/wireless_connectivity/f/538)
-* [IBM IoT Foundation service](https://quickstart.internetofthings.ibmcloud.com/#/device/95096397e1ea/sensor/)
+* [IBM IoT Foundation service](https://quickstart.internetofthings.ibmcloud.com/#/device/)
 * [IBM Bluemix Doc](https://www.ng.bluemix.net/docs)
  * [Internet of Things Starter](https://www.ng.bluemix.net/docs/starters/IoT/iot500.html)
  * [SDK for Node.js](https://www.ng.bluemix.net/docs/#starters/nodejs/index.html#nodejs)
