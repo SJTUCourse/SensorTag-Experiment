@@ -41,5 +41,3 @@ A: [Register](https://docs.internetofthings.ibmcloud.com/getting_started/registe
  * [Internet of Things Starter](https://www.ng.bluemix.net/docs/starters/IoT/iot500.html)
  * [SDK for Node.js](https://www.ng.bluemix.net/docs/#starters/nodejs/index.html#nodejs)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
-
-[Contact me](xiangji@sjtu.edu.cn)
