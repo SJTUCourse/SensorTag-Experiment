@@ -20,12 +20,12 @@
 
     <section class="main-content">
       <h1>
-<a id="sensortag-experiment" class="anchor" href="#sensortag-experiment" aria-hidden="true"><span class="octicon octicon-link"></span></a>SensorTag-Experiment</h1>
+<a id="sensortag-experiment" class="anchor" href="#sensortag-experiment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SensorTag-Experiment</h1>
 
 <p>Requirements and FAQs for the experiment of SensorTag</p>
 
 <h2>
-<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
 
 <ol>
 <li> Provide several real pictures of your SensorTag and identify all the chips of sensors in the pictures.<br>
@@ -45,17 +45,45 @@ You can find the following model pictures <a href="http://www.ti.com/ww/en/wirel
 </ol>
 
 <h2>
-<a id="faqs" class="anchor" href="#faqs" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQs</h2>
+<a id="faqs" class="anchor" href="#faqs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQs</h2>
 
-<p>TBD  </p>
+<p>Q: I have a SensorTag around, how can I get started to view the sensor data?<br>
+A: If you are an iOS user, this <a href="https://developer.ibm.com/recipes/tutorials/find-your-sensortag-device-id-in-ios/">article</a> provides detailed descriptions. If you are an android user, similar operations should be performed.</p>
+
+<p>Q: I want to fetch the sensor data from <a href="https://quickstart.internetofthings.ibmcloud.com/#/device/">IBM IoT Cloud</a>, how can I achieve that in my computer?<br>
+A: You should do the following steps,<br>
+(1) Ensure that your SensorTag with 'Push to cloud' turned on in 'Cloud View'.<br>
+If you do not have a SensorTag around, you can use your computer to simulate as SensorTag, and this <a href="https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/">article</a> provides detailed descriptions.  </p>
+
+<p>(2) Install IBM Python SDK for IoT in your computer.</p>
+
+<ul>
+<li><a href="https://www.python.org/downloads">Python 2.7/3.5</a></li>
+<li>Upgrade <a href="https://bootstrap.pypa.io/get-pip.py">pip</a><br>
+Download the get-pip.py and run in command lines: python get-pip.py<br>
+</li>
+<li>
+<a href="https://github.com/ibm-messaging/iot-python">IoT Python</a><br>
+If you are not familiar with Python language, <a href="http://pythontutor.com/">Python Tutor</a> can help you exercise Python programming so that you can master Python quickly, maybe in three days or a week.<br>
+</li>
+</ul>
+
+<p>(3) Get DeviceID of your SensorTag, run in the command lines as below,  </p>
+
+<blockquote>
+<p>python simpleApp.py -I deviceID  </p>
+</blockquote>
+
+<p>Q: How to deploy my application in <a href="https://www.ng.bluemix.net">IBM Bluemix</a>?<br>
+A: <a href="https://docs.internetofthings.ibmcloud.com/getting_started/register/index.html">Register</a>  </p>
 
 <h2>
-<a id="helpful-resources" class="anchor" href="#helpful-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Helpful resources</h2>
+<a id="helpful-resources" class="anchor" href="#helpful-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Helpful resources</h2>
 
 <ul>
 <li><a href="http://www.ti.com/ww/en/wireless_connectivity/sensortag2015">Simplelink SensorTag</a></li>
 <li><a href="http://e2e.ti.com/support/wireless_connectivity/f/538">TI E2E Community for Bluetooth Smart</a></li>
-<li><a href="https://quickstart.internetofthings.ibmcloud.com/#/device/95096397e1ea/sensor/">IBM IoT Foundation service</a></li>
+<li><a href="https://quickstart.internetofthings.ibmcloud.com/#/device/">IBM IoT Foundation service</a></li>
 <li>
 <a href="https://www.ng.bluemix.net/docs">IBM Bluemix Doc</a>
 
@@ -63,6 +91,9 @@ You can find the following model pictures <a href="http://www.ti.com/ww/en/wirel
 <li><a href="https://www.ng.bluemix.net/docs/starters/IoT/iot500.html">Internet of Things Starter</a></li>
 <li><a href="https://www.ng.bluemix.net/docs/#starters/nodejs/index.html#nodejs">SDK for Node.js</a></li>
 </ul>
+</li>
+<li>
+<a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a><br>
 </li>
 </ul>
 
