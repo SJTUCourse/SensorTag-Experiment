@@ -23,7 +23,7 @@ If you do not have a SensorTag around, you can use your computer to simulate as 
 (2) Install IBM Python SDK for IoT in your computer.
 * [Python 2.7/3.5](https://www.python.org/downloads)
 * Upgrade [pip](https://bootstrap.pypa.io/get-pip.py)  
-Download the get-pip.py and run in command lines: python get-pip.py  
+Download the get-pip.py and run in command lines: python get-pip.py, python -m pip install -U pip   
 * [IoT Python](https://github.com/ibm-messaging/iot-python)  
 If you are not familiar with Python language, [Python Tutor](http://pythontutor.com/) can help you exercise Python programming so that you can master Python quickly, maybe in three days or a week.  
 
